@@ -1,0 +1,45 @@
+[]
+    "timestamp": "2026-04-25T08:30:00Z",
+    "device_id": "WEARABLE-A1",
+    "readings": [
+      {"vital_type": "heart_rate", "value": 72, "unit": "bpm"},
+      {"vital_type": "systolic_bp", "value": 118, "unit": "mmHg"},
+      {"vital_type": "diastolic_bp", "value": 76, "unit": "mmHg"},
+      {"vital_type": "spo2", "value": 98, "unit": "%"},
+      {"vital_type": "glucose", "value": 105, "unit": "mg/dL"},
+      {"vital_type": "respiratory_rate", "value": 16, "unit": "breaths/min"},
+      {"vital_type": "temperature", "value": 36.6, "unit": "°C"}
+    ],
+    "metadata": {"location": "home", "activity": "resting"}
+  },
+  {
+    "patient_id": "P-1002",
+    "timestamp": "2026-04-25T08:35:00Z",
+    "device_id": "WEARABLE-B3",
+    "readings": [
+      {"vital_type": "heart_rate", "value": 132, "unit": "bpm"},
+      {"vital_type": "systolic_bp", "value": 82, "unit": "mmHg"},
+      {"vital_type": "diastolic_bp", "value": 50, "unit": "mmHg"},
+      {"vital_type": "spo2", "value": 88, "unit": "mg/dL"},
+      {"vital_type": "glucose", "value": 245, "unit": "mg/dL"},
+      {"vital_type": "respiratory_rate", "value": 28, "unit": "breaths/min"},
+      {"vital_type": "temperature", "value": 38.9, "unit": "°C"}
+    ],
+    "metadata": {"location": "home", "activity": "sitting"}
+  },
+  {
+    "patient_id": "P-1003",
+    "timestamp": "2026-04-25T08:40:00Z",
+    "device_id": "WEARABLE-C7",
+    "readings": [
+      {"vital_type": "heart_rate", "value": 110, "unit": "bpm"},
+      {"vital_type": "systolic_bp", "value": 155, "unit": "mmHg"},
+      {"vital_type": "diastolic_bp", "value": 95, "unit": "mmHg"},
+      {"vital_type": "spo2", "value": 93, "unit": "%"},
+      {"vital_type": "glucose", "value": 130, "unit": "mg/dL"},
+      {"vital_type": "respiratory_rate", "value": 22, "unit": "breaths/min"},
+      {"vital_type": "temperature", "value": 37.0, "unit": "°C"}
+    ],
+    "metadata": {"location": "clinic", "activity": "walking"}
+  }
+]

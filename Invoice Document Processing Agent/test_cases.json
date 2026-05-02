@@ -1,0 +1,66 @@
+[
+  {
+    "case_id": "case-001",
+    "pdf_path": "sample_invoices/invoice_001.pdf",
+    "expected": {
+      "invoice_number": "INV-2026-001",
+      "invoice_date": "2026-01-15",
+      "due_date": "2026-02-15",
+      "vendor_name": "Acme Supplies Inc.",
+      "customer_name": "TechStart LLC",
+      "base_amount": 1250.00,
+      "tax_amount": 100.00,
+      "total_amount": 1350.00,
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Office Chair - Ergonomic Model",
+          "quantity": 5,
+          "unit_price": 150.00,
+          "amount": 750.00
+        },
+        {
+          "description": "Standing Desk Converter",
+          "quantity": 5,
+          "unit_price": 100.00,
+          "amount": 500.00
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "case-002",
+    "pdf_path": "sample_invoices/invoice_002.pdf",
+    "expected": {
+      "invoice_number": "INV-2026-002",
+      "invoice_date": "2026-02-01",
+      "due_date": null,
+      "vendor_name": "CloudNet Services",
+      "customer_name": "DataFlow Corp",
+      "base_amount": 2400.00,
+      "tax_amount": 0.00,
+      "total_amount": 2400.00,
+      "currency": "USD",
+      "line_items": [
+        {
+          "description": "Cloud Hosting - Monthly (Jan 2026)",
+          "quantity": 1,
+          "unit_price": 800.00,
+          "amount": 800.00
+        },
+        {
+          "description": "Cloud Hosting - Monthly (Feb 2026)",
+          "quantity": 1,
+          "unit_price": 800.00,
+          "amount": 800.00
+        },
+        {
+          "description": "Cloud Hosting - Monthly (Mar 2026)",
+          "quantity": 1,
+          "unit_price": 800.00,
+          "amount": 800.00
+        }
+      ]
+    }
+  }
+]

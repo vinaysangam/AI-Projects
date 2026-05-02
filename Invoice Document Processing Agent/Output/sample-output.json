@@ -1,0 +1,28 @@
+{
+  "raw_text": "SuperStore INVOICE\n# 36258\nDate: Mar 06 2012\nBill To: Ship To:\nShip Mode: First Class\nAaron Bergman 98103, Seattle,\nWashington, United\nBalance Due: $50.10\nStates\nItem Quantity Rate Amount\nGlobal Push Button Manager's Chair, Indigo 1 $48.71 $48.71\nChairs, Furniture, FUR-CH-4421\nSubtotal: $48.71\nDiscount (20%): $9.74\nShipping: $11.13\nTotal: $50.10\nNotes:\nThanks for your business!\nTerms:\nOrder ID : CA-2012-AB10015140-40974",
+  "extracted": {
+    "invoice_number": "36258",
+    "invoice_date": "2012-03-06",
+    "due_date": null,
+    "vendor_name": "SuperStore",
+    "customer_name": "Aaron Bergman",
+    "base_amount": 48.71,
+    "tax_amount": null,
+    "total_amount": 50.1,
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Global Push Button Manager's Chair, Indigo; Chairs, Furniture, FUR-CH-4421",
+        "quantity": 1,
+        "unit_price": 48.71,
+        "amount": 48.71
+      }
+    ]
+  },
+  "validation": {
+    "field_results": [],
+    "line_item_results": [],
+    "summary": "",
+    "all_match": false
+  }
+}
