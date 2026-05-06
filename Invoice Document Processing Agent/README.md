@@ -21,7 +21,7 @@ AI-powered invoice processing pipeline that extracts structured data from PDF in
         v                   v                   v
  +-------------+   +---------------+   +---------------+
  |  Step 1:    |   |  Step 2:      |   |  Step 3:      |
- |  PDF Text   |   |  LLM Field   |   |  LLM          |
+ |  PDF Text   |   |  LLM Field    |   |  LLM          |
  |  Extraction |   |  Extraction   |   |  Validation   |
  |             |   |               |   |               |
  |  pdfplumber |   |  Azure OpenAI |   |  Azure OpenAI |
